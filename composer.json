@@ -16,11 +16,17 @@
             "email": "291323003@qq.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/leocavalcante/easy-swoole-spl"
+        }
+    ],
     "require": {
         "php": ">=7.1.0",
         "ext-swoole": "^4.4.5",
         "easyswoole/component": "^2.0",
-        "easyswoole/spl": "^1.1"
+        "easyswoole/spl": "dev-non-final-private"
     },
     "autoload": {
         "psr-4": {
